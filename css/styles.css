@@ -1,7 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* HEADER*/
@@ -10,7 +42,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -67,15 +98,19 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
   font-size: 56px;
-
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -88,6 +123,8 @@ body {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -96,21 +133,26 @@ body {
 }
 
 /* FEATURES */
-ul {
-  list-style: none;
-}
 
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .features-subtitle {
   font-size: 20px;
-
+  margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
+.features-item {
+  max-width: 264px;
+  margin: 0 auto;
+}
+
 .features-item-text {
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -121,23 +163,27 @@ ul {
 .team {
   background-color: #f4f4fd;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .team-list-item {
   background-color: #ffffff;
 }
 
 .team-title {
   font-size: 36px;
-
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  max-width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .team-member {
   font-size: 20px;
-
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
@@ -146,7 +192,6 @@ ul {
 
 .team-member-position {
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -155,9 +200,13 @@ ul {
 
 /* PORTFOLIO */
 
+.portfolio {
+  padding-top: 124px;
+  padding-bottom: 116px;
+}
+
 .portfolio-menu-title {
   font-size: 36px;
-
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -167,7 +216,6 @@ ul {
 
 .portfolio-title {
   font-size: 20px;
-
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -175,7 +223,6 @@ ul {
 
 .portfolio-text {
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -185,24 +232,25 @@ ul {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
 }
+
 .footer-logo-type {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -211,7 +259,6 @@ ul {
 
 .footer-text {
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
