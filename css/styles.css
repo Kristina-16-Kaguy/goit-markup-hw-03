@@ -75,7 +75,7 @@ header .container {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  adding-left: 15px;
+  padding-left: 15px;
   padding-right: 15px;
 }
 
@@ -167,6 +167,8 @@ header {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -299,9 +301,7 @@ header {
 }
 
 .portfolio-caption {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
 }
 
