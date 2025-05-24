@@ -94,6 +94,11 @@ a {
   font-style: normal;
 }
 
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* HERO */
 
 .hero {
