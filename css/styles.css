@@ -73,10 +73,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 
 header {
@@ -238,7 +235,6 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  /* max-width: 162px; */
   margin: 0 auto;
   margin-bottom: 72px;
 }
